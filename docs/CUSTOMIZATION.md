@@ -18,7 +18,7 @@ accent=#1f7a4d;ink=#242424;paper=#ffffff;readingWidth=720;articleSize=20;article
 | `articleSizeMobile` | 17–23, in pixels | `19` |
 | `uiFont` | `inter`, `arial`, `system` | `inter` |
 | `articleFont` | `source-serif`, `georgia` | `source-serif` |
-| `relatedCount` | 1–6 | `3` |
+| `relatedCount` | 1–6 | `3` if the gadget is empty; `4` in the v1.6.1 release gadget |
 | `readingProgress`, `showRelated` | `on` or `off` | `on` |
 
 The live demo sets `relatedCount=4`. Optional text settings are `featuredTitle`, `latestTitle`, `relatedTitle`, `recentTitle`, `savedTitle`, and `followLabel`. For example, append `;relatedTitle=More to read;followLabel=Follow Saeium`. Section heading values accept up to 70 characters; the follow label accepts up to 40. Gadget titles are changed in their own Layout forms. Inter and Source Serif Pro load from Google Fonts with fallback fonts; Medium's proprietary font is not bundled.

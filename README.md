@@ -1,6 +1,6 @@
 # Saeium Blogger Theme
 
-Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.6.0 displays real cover photos in related stories, adds a reading progress bar, and expands customization through native Blogger gadgets. It retains Blogger's official Follow blog action, Inter interface type, Source Serif Pro article text, native threaded replies, and the mobile menu. Saeium is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.blogspot.com/).
+Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.6.1 improves article metadata and document language. Version 1.6.0 added real related-story photos, a reading progress bar, and native Blogger customization gadgets. Saeium retains Blogger's official Follow blog action, Inter interface type, Source Serif Pro article text, native threaded replies, and the mobile menu. It is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.blogspot.com/).
 
 ![Saeium article with updated typography and Follow blog](preview-article-v1.5.0.png)
 
@@ -28,16 +28,21 @@ Saeium is an original, reading-focused Blogger theme inspired by the editorial l
 - Built-in archive at `/search?view=index` with date and topic filters
 - Keyboard-accessible search and mobile menu
 - No default ad placements or third-party JavaScript libraries
+- Article-first page titles, article metadata, image alt text, and Blogger's canonical URLs; see the [SEO guide](docs/SEO.md)
 
 ## Install
 
-1. Download [Saeium-v1.6.0.xml](Saeium-v1.6.0.xml).
+1. Download [Saeium-v1.6.1.xml](Saeium-v1.6.1.xml).
 2. In Blogger, open **Theme → More → Backup** and save your current theme.
 3. Choose **Restore → Upload** and select the Saeium XML file.
 4. Open **Layout** to configure the logo, navigation, introduction, topics, sidebar, and footer.
 5. Add posts and labels, then check the public home, article, label, search, and archive pages.
 
 See [Installation](docs/INSTALLATION.md) for details.
+
+## Support via PayPal
+
+To support the project, open [PayPal](https://www.paypal.com/myaccount/transfer/) and send a payment to `prasojodwip@gmail.com`. Enter the recipient in PayPal and confirm their identity before sending. A one-click GitHub Sponsor link requires a verified PayPal.Me or hosted payment URL from the owner; the email-only Donate URL is unavailable for this account's country.
 
 ## Customize
 
@@ -81,11 +86,11 @@ Earlier local mock screenshots use fictional sample posts. The live demo has six
 | Live mobile comments | [Open](preview-v1.3.0-live-mobile-comments.png) |
 | Live mobile article | [Open](preview-v1.3.0-live-mobile-article.png) |
 
-The [mobile article and footer audit](docs/MEDIUM-ARTICLE-AUDIT.md) records the reference structure and Saeium adaptation. [Version 1.6.0 verification](docs/RELEASE-1.6.0-VERIFICATION.md) records the image, customization, responsive, and speed checks. Earlier verification reports record typography, following, replies, and footer checks.
+The [mobile article and footer audit](docs/MEDIUM-ARTICLE-AUDIT.md) records the reference structure and Saeium adaptation. [Version 1.6.0 verification](docs/RELEASE-1.6.0-VERIFICATION.md) records the image, customization, responsive, and speed checks. The [SEO guide](docs/SEO.md) explains article search descriptions and indexing. Earlier verification reports record typography, following, replies, and footer checks.
 
 ## Compatibility and verification
 
-Saeium v1.6.0 passed XML and JavaScript syntax checks and is installed on the [live demo](https://saeium.blogspot.com/), which has six original English posts. The live Layout panel displays twelve sections and fourteen native gadgets. Related covers, the settings gadget, both new Link List forms, the reading progress bar, and a 390px layout without horizontal overflow were checked live. Browser timing and image-request evidence are recorded in the verification report. Comment Likes and saved stories stay in the current browser and do not sync across visitors or devices; Blogger does not provide a signed-in Medium-style library through a theme.
+Saeium v1.6.1 passed XML structure checks against the live v1.6.0 baseline. The [live demo](https://saeium.blogspot.com/) currently runs v1.6.0 and has six original English posts. The Layout panel displays twelve sections and fourteen native gadgets. Related covers, the settings gadget, both new Link List forms, the reading progress bar, and a 390px layout without horizontal overflow were checked live in v1.6.0. Browser timing and image-request evidence are recorded in the earlier verification report. Comment Likes and saved stories stay in the current browser and do not sync across visitors or devices; Blogger does not provide a signed-in Medium-style library through a theme.
 
 ## Credits and licensing
 

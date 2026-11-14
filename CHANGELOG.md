@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.1 — 2026-11-15
+
+- Added the blog's configured language to the document and put the article name first in single-item page titles.
+- Enriched visible Article microdata with author, publisher, article URL, update date, and cover image; added `og:type` and a Twitter card hint without duplicating Blogger's canonical and Open Graph URL/image tags.
+- Added an English SEO guide with Blogger search-description, heading, image-alt, language, and Search Console steps.
+- Added PayPal support instructions and the specified recipient email to the GitHub README. A direct Sponsor button awaits a verified PayPal.Me or hosted payment link because PayPal's email-based Donate URL reports that donations are unavailable for the account's country.
+- Retained all twelve section IDs, fourteen gadget IDs, and their saved settings from the live v1.6.0 baseline.
+
 ## 1.6.0 — 2026-11-15
 
 - Fixed empty related-story covers by reading each post's first image from the full Blogger feed when no feed thumbnail exists. Related cards now use 640px images, load lazily, link from the cover, and prioritize shared topics.

@@ -2,6 +2,7 @@
 
 ## 1.6.1 — 2026-11-15
 
+- Removed outdated preview screenshots from the current GitHub tree and kept the two live v1.6.0 previews referenced by the README.
 - Added the blog's configured language to the document and put the article name first in single-item page titles.
 - Enriched visible Article microdata with author, publisher, article URL, update date, and cover image; added `og:type` and a Twitter card hint without duplicating Blogger's canonical and Open Graph URL/image tags.
 - Added an English SEO guide with Blogger search-description, heading, image-alt, language, and Search Console steps.

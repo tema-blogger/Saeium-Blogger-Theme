@@ -27,7 +27,7 @@ Follow blog appears in the desktop header, left rail, mobile drawer, article byl
 | Horizontal overflow | None on live desktop or 390px mobile views |
 | RSS links | No visible RSS link in the navigation or footer |
 
-The desktop [article capture](../preview-article-v1.5.0.png) and [mobile drawer capture](../preview-mobile-v1.5.0.png) were taken from the live site after the update.
+Desktop article and mobile drawer captures were taken from the live site after the update. Earlier preview files were removed from the current repository during the v1.6.1 cleanup.
 
 ## Limits
 

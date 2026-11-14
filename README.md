@@ -2,7 +2,7 @@
 
 Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.6.1 improves article metadata and document language. Version 1.6.0 added real related-story photos, a reading progress bar, and native Blogger customization gadgets. Saeium retains Blogger's official Follow blog action, Inter interface type, Source Serif Pro article text, native threaded replies, and the mobile menu. It is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.blogspot.com/).
 
-![Saeium article with updated typography and Follow blog](preview-article-v1.5.0.png)
+![Saeium related stories with real cover photos](preview-related-v1.6.0.png)
 
 ## Features
 
@@ -67,24 +67,12 @@ Read [Customization](docs/CUSTOMIZATION.md) for examples and archive settings.
 
 ## Preview
 
-Earlier local mock screenshots use fictional sample posts. The live demo has six original English posts with photos. Your own blog title, posts, labels, and images will appear after installation.
+These previews show the latest live v1.6.0 theme. The blog has six original English posts with photos. Your own blog title, posts, labels, and images will appear after installation.
 
 | View | Preview |
 | --- | --- |
 | Related stories with real images, live | [Open](preview-related-v1.6.0.png) |
 | Layout panel with version label and Theme settings, live | [Open](preview-layout-v1.6.0.png) |
-| Editable sidebar and footer gadgets, live | [Open](preview-layout-footer-v1.5.1.png) |
-| Desktop article and follow module, live | [Open](preview-article-v1.5.0.png) |
-| Mobile follow menu, live | [Open](preview-mobile-v1.5.0.png) |
-| Desktop footer, live | [Open](preview-v1.4.1-live-desktop-footer.png) |
-| Mobile home with comments, live | [Open](preview-v1.4.1-live-mobile-home-comments.png) |
-| Desktop reply editor, live | [Open](preview-v1.4.1-live-desktop-reply.png) |
-| Mobile article actions, live | [Open](preview-v1.4.1-live-mobile-article-comments.png) |
-| Live mobile home | [Open](preview-v1.3.0-live-mobile-home.png) |
-| Live mobile menu | [Open](preview-v1.3.0-live-mobile-menu.png) |
-| Live mobile article footer | [Open](preview-v1.3.0-live-mobile-article-footer.png) |
-| Live mobile comments | [Open](preview-v1.3.0-live-mobile-comments.png) |
-| Live mobile article | [Open](preview-v1.3.0-live-mobile-article.png) |
 
 The [mobile article and footer audit](docs/MEDIUM-ARTICLE-AUDIT.md) records the reference structure and Saeium adaptation. [Version 1.6.0 verification](docs/RELEASE-1.6.0-VERIFICATION.md) records the image, customization, responsive, and speed checks. The [SEO guide](docs/SEO.md) explains article search descriptions and indexing. Earlier verification reports record typography, following, replies, and footer checks.
 

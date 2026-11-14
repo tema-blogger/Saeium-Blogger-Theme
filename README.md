@@ -42,7 +42,7 @@ See [Installation](docs/INSTALLATION.md) for details.
 
 ## Support via PayPal
 
-To support the project, open [PayPal](https://www.paypal.com/myaccount/transfer/) and send a payment to `prasojodwip@gmail.com`. Enter the recipient in PayPal and confirm their identity before sending. A one-click GitHub Sponsor link requires a verified PayPal.Me or hosted payment URL from the owner; the email-only Donate URL is unavailable for this account's country.
+Use GitHub's **Sponsor** button or read the [PayPal support instructions](docs/DONATE.md). The recipient is `prasojodwip@gmail.com`. The Sponsor button opens these instructions because the email-only PayPal Donate URL is unavailable for this account's country. A direct checkout link can be added when the project owner provides a verified PayPal.Me or hosted payment URL for Saeium.
 
 ## Customize
 

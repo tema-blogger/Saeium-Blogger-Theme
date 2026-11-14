@@ -1,27 +1,37 @@
 # Saeium Blogger Theme
 
-Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.1.0 adds a persistent left navigation rail, a richer right sidebar, shorter home introduction, and fuller article and footer sections. Saeium is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.blogspot.com/).
+Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.6.0 displays real cover photos in related stories, adds a reading progress bar, and expands customization through native Blogger gadgets. It retains Blogger's official Follow blog action, Inter interface type, Source Serif Pro article text, native threaded replies, and the mobile menu. Saeium is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.blogspot.com/).
 
-![Saeium desktop preview](preview-v1.1.0-home-1440.png)
+![Saeium article with updated typography and Follow blog](preview-article-v1.5.0.png)
 
 ## Features
 
 - Responsive home, label, search, article, static page, and 404 layouts
-- Persistent desktop left navigation; mobile drawer with keyboard dismissal
-- Right rail with editable About and Topics gadgets, recent stories, and a browser-local reading list
-- Feed-filled story excerpts, article recommendations, author context, and working save/share controls
+- Persistent desktop left navigation; 235px mobile drawer with Pictogrammers icons, a Profile link, an X close state, and keyboard dismissal
+- Mobile For you and Featured tabs; Featured displays the first three actual Blogger posts
+- Full mobile search screen with browser-local recent searches
+- Right rail with editable About, Topics, and Follow this blog gadgets, recent stories, and a browser-local reading list
+- Related stories with actual post images, shared-topic ranking, configurable count, and lazy loading
+- Optional article reading progress bar
+- Theme settings for colors, reading width, fonts, article size, related stories, and common section labels
+- Official Blogger Follow blog links in the header, navigation, sidebar, article, and footer; new posts appear in the follower's Blogger Reading List
+- Inter headlines and interface text, Source Serif Pro article text, and a Georgia wordmark; fallback fonts are provided
+- Feed-filled story excerpts, larger home headlines, article recommendations, author context, and working save/share controls
+- Medium-inspired article structure with a publication row, topic chips, subtitle, read time, cover image, writer card, publication card, and response area
+- Native Blogger threaded replies and per-comment Like controls stored in the current browser (not a shared public count)
+- Comment icon and actual Blogger response count on home cards and article actions
 - Editable blog title or uploaded logo through Blogger's **Header** gadget
-- Editable navigation and footer links through native **Link List** gadgets
-- Editable home introduction and sidebar text through **HTML/JavaScript** gadgets
+- Editable primary navigation, explore links, footer navigation, and footer shortcuts through native **Link List** gadgets
+- Editable home introduction, sidebar text, follow copy, and footer description through **HTML/JavaScript** gadgets
 - Topic navigation generated from Blogger labels
-- Native Blogger search, post-list pagination, and comments link
+- Native Blogger search, post-list pagination, and an embedded, typeable comment form
 - Built-in archive at `/search?view=index` with date and topic filters
 - Keyboard-accessible search and mobile menu
 - No default ad placements or third-party JavaScript libraries
 
 ## Install
 
-1. Download [Saeium-v1.1.0.xml](Saeium-v1.1.0.xml).
+1. Download [Saeium-v1.6.0.xml](Saeium-v1.6.0.xml).
 2. In Blogger, open **Theme → More → Backup** and save your current theme.
 3. Choose **Restore → Upload** and select the Saeium XML file.
 4. Open **Layout** to configure the logo, navigation, introduction, topics, sidebar, and footer.
@@ -35,36 +45,51 @@ The theme uses your Blogger blog title when no logo is uploaded. In **Layout**, 
 
 | Area | Gadget | What to change |
 | --- | --- | --- |
-| Header & Logo | Header | Blog title and logo |
-| Main Navigation | Link List | Left rail's primary menu names, URLs, order |
-| Home Introduction | HTML/JavaScript | Heading, description, button |
-| Topic Navigation | Labels | Labels shown near the top |
-| Main Content | Blog Posts | Post count and Blogger post options |
-| Sidebar | HTML/JavaScript, Labels | Introduction and topics; recent and saved stories appear automatically |
-| Footer Links | Link List | Footer links |
-| Footer Credit | HTML/JavaScript | Copyright line |
+| 00 Pengaturan Saeium | HTML/JavaScript | Theme appearance, labels, reading and related-story options |
+| 01 Header & Logo | Header | Blog title and logo |
+| 02 Menu Utama | Link List | Left rail's primary menu names, URLs, order |
+| 03 Tautan Jelajah | Link List | Extra left rail links |
+| 04 Pembuka Beranda | HTML/JavaScript | Heading, description, button |
+| 05 Navigasi Topik | Labels | Labels shown near the top |
+| 06 Postingan Blog | Blog Posts | Post count and Blogger post options |
+| 07 Sidebar & Ikuti Blog | HTML/JavaScript, Labels | Introduction, topics, follow heading and copy |
+| 08 Deskripsi Footer | HTML/JavaScript | Footer tagline |
+| 09 Tautan Footer | Link List | Footer navigation |
+| 10 Tautan Footer Tambahan | Link List | Footer shortcuts |
+| 11 Kredit Footer | HTML/JavaScript | Copyright line |
 
 Read [Customization](docs/CUSTOMIZATION.md) for examples and archive settings.
 
 ## Preview
 
-The v1.1.0 mock screenshots use fictional sample posts. The live demo has four original English posts. Your own blog title, posts, labels, and images will appear after installation.
+Earlier local mock screenshots use fictional sample posts. The live demo has six original English posts with photos. Your own blog title, posts, labels, and images will appear after installation.
 
 | View | Preview |
 | --- | --- |
-| Desktop home | [Open](preview-v1.1.0-home-1440.png) |
-| Mobile home | [Open](preview-v1.1.0-home-390.png) |
-| Desktop article | [Open](preview-v1.1.0-post-1440.png) |
-| Mobile article | [Open](preview-v1.1.0-post-390.png) |
-| Live updated home | [Open](preview-v1.1.0-live-home.png) |
+| Related stories with real images, live | [Open](preview-related-v1.6.0.png) |
+| Layout panel with version label and Theme settings, live | [Open](preview-layout-v1.6.0.png) |
+| Editable sidebar and footer gadgets, live | [Open](preview-layout-footer-v1.5.1.png) |
+| Desktop article and follow module, live | [Open](preview-article-v1.5.0.png) |
+| Mobile follow menu, live | [Open](preview-mobile-v1.5.0.png) |
+| Desktop footer, live | [Open](preview-v1.4.1-live-desktop-footer.png) |
+| Mobile home with comments, live | [Open](preview-v1.4.1-live-mobile-home-comments.png) |
+| Desktop reply editor, live | [Open](preview-v1.4.1-live-desktop-reply.png) |
+| Mobile article actions, live | [Open](preview-v1.4.1-live-mobile-article-comments.png) |
+| Live mobile home | [Open](preview-v1.3.0-live-mobile-home.png) |
+| Live mobile menu | [Open](preview-v1.3.0-live-mobile-menu.png) |
+| Live mobile article footer | [Open](preview-v1.3.0-live-mobile-article-footer.png) |
+| Live mobile comments | [Open](preview-v1.3.0-live-mobile-comments.png) |
+| Live mobile article | [Open](preview-v1.3.0-live-mobile-article.png) |
+
+The [mobile article and footer audit](docs/MEDIUM-ARTICLE-AUDIT.md) records the reference structure and Saeium adaptation. [Version 1.6.0 verification](docs/RELEASE-1.6.0-VERIFICATION.md) records the image, customization, responsive, and speed checks. Earlier verification reports record typography, following, replies, and footer checks.
 
 ## Compatibility and verification
 
-Saeium v1.1.0 has passed XML structure and JavaScript syntax checks, local browser previews at 320, 375, 390, 414, 768, and 1440px, and live home/article checks. It is installed on the [live demo](https://saeium.blogspot.com/), which has four original English posts. The left rail, feed excerpts, recent/related stories, local save control, mobile drawer, footer, and native Blogger menu gadget were checked on the live blog. Saved stories are stored only in the current browser; Blogger does not provide a signed-in Medium-style library through a theme.
+Saeium v1.6.0 passed XML and JavaScript syntax checks and is installed on the [live demo](https://saeium.blogspot.com/), which has six original English posts. The live Layout panel displays twelve sections and fourteen native gadgets. Related covers, the settings gadget, both new Link List forms, the reading progress bar, and a 390px layout without horizontal overflow were checked live. Browser timing and image-request evidence are recorded in the verification report. Comment Likes and saved stories stay in the current browser and do not sync across visitors or devices; Blogger does not provide a signed-in Medium-style library through a theme.
 
 ## Credits and licensing
 
-The layout takes inspiration from Medium's public pages but contains no Medium logo, article content, code, or imagery. The archive module includes Pictogrammers Material Design Icons under Apache 2.0; see [license](LICENSE-APACHE-2.0.txt) and [notice](PICTOGRAMMERS-NOTICE.txt). A separate license for the Saeium theme has not been selected.
+The layout takes inspiration from Medium's public pages but contains no Medium logo, article content, code, or imagery. The archive and mobile controls include Pictogrammers Material Design Icons under Apache 2.0; see [license](LICENSE-APACHE-2.0.txt) and [notice](PICTOGRAMMERS-NOTICE.txt). A separate license for the Saeium theme has not been selected.
 
 ## Changelog
 

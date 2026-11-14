@@ -3,39 +3,26 @@
 ## Requirements
 
 - A Blogger blog with access to **Theme** and **Layout**
-- Public Blogger post feeds enabled if you want the enhanced archive filters
-- At least one published post to populate story lists
+- A public post feed for related images, recent stories, and the enhanced archive
+- Published posts with first images if you want photo covers
 
-## Back up your current theme
+## Back up and upload
 
-Open **Blogger → Theme → More → Backup** and download your current XML. Keep that backup until you have finished checking Saeium on your blog.
+1. In **Blogger → Theme → More → Backup**, download your current XML.
+2. Choose **Restore → Upload** and select `Saeium-v1.6.0.xml`.
+3. Open the public homepage, an article, a label page, search, and `/search?view=index`.
+4. Open **Layout** and edit the named gadgets. Start with **00 · Pengaturan Saeium → Theme settings** for colors, fonts, reading width, and related-story options. See [Customization](CUSTOMIZATION.md) for setting keys.
 
-## Upload Saeium
+The theme creates no posts or labels. The live demo has six original English posts with photos. A new blog shows placeholders until you publish images in its articles.
 
-1. Open **Theme → More → Restore**.
-2. Upload `Saeium-v1.1.0.xml`.
-3. Visit your public blog and refresh the page.
-4. Check the homepage, one article, a label page, a keyword search, a static page, and an invalid URL.
+## Layout
 
-## Configure Layout
+Version 1.6.0 has twelve named sections and fourteen native gadgets. The new gadgets are **Theme settings**, **Explore links**, and **Footer shortcuts**. Blogger's native Header, Link List, Labels, HTML/JavaScript, and Blog Posts forms handle other areas. Edit link labels, destinations, and order in Link List forms. Edit the home introduction, sidebar text, footer description, and credit in their HTML/JavaScript forms.
 
-Open **Layout**. The sections are numbered from top to bottom:
+## Follow and responses
 
-1. **Header & Logo** — use the native Header gadget to set a title or upload a logo.
-2. **Main Navigation** — edit the native Link List in the left rail; the initial links are Home and Archive. Stories, Topics, and RSS shortcuts follow below.
-3. **Home Introduction** — edit the HTML/JavaScript gadget. If empty, Saeium shows its sample heading and button.
-4. **Topic Navigation** — choose which Blogger labels to display.
-5. **Main Content** — configure the Blog Posts gadget and the number of posts per page.
-6. **Sidebar** — change the short introduction and displayed labels. Fresh Reads comes from the public post feed. Saved stories are local to each visitor's browser.
-7. **Footer Links** — edit the native Link List.
-8. **Footer Credit** — change the copyright line if needed.
+Follow blog buttons open Blogger's official confirmation and add posts to the follower's Blogger Reading List. They do not subscribe visitors to email. Set **Settings → Comments → Comment location** to **Embedded** and keep per-post comment feeds enabled for Blogger's editor and threaded replies. Comment Likes are browser-local toggles.
 
-The theme does not create posts or labels for you. The live demo includes four original sample posts; mock screenshots show fictional preview content.
+## Updates and preservation
 
-## Check the archive
-
-Open `https://YOUR-BLOG/search?view=index`. It should show an archive with date and topic filters. If the enhanced archive cannot load the public post feed, it offers the native Blogger archive fallback. Keep feeds enabled in **Settings → Site feed** for the enhanced view.
-
-## Updating
-
-Back up the installed theme before replacing it. Use a release with a higher version number for future updates. Version 1.1.0 preserves the v1.0.0 widget and section IDs; Blogger should retain saved gadget settings, but review Layout after restoring a theme. Recent stories, article recommendations, and empty excerpts use the public Blogger post feed, so leave **Settings → Site feed** enabled.
+Back up the installed theme before restoring another release. Version 1.6.0 preserves all eleven existing widget IDs and their saved settings from the v1.5.1 live theme, and adds three gadgets. Review Layout after an update because Blogger may adjust gadget placement during a restore. The public feed must remain enabled for related images and the enhanced archive. No RSS link is shown in the theme.

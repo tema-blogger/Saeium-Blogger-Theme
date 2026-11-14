@@ -53,10 +53,11 @@ The screenshots use fictional sample posts and the example blog title **The Fiel
 | Mobile home | [Open](preview-home-390.png) |
 | Desktop article | [Open](preview-post-1440.png) |
 | Mobile article | [Open](preview-post-390.png) |
+| Live blog with stories | [Open](preview-live-stories.png) |
 
 ## Compatibility and verification
 
-Saeium v1.0.0 has passed XML structure checks, JavaScript syntax checks, and local browser previews at 1440px and 390px. It is installed on the [live demo](https://saeium.blogspot.com/), where the homepage, empty search results, archive, and header search panel were checked. The demo currently has no published posts, so article and label layouts were checked in local previews only. Your blog's native gadgets can be edited in Blogger Layout.
+Saeium v1.0.0 has passed XML structure checks, JavaScript syntax checks, and local browser previews at 1440px and 390px. It is installed on the [live demo](https://saeium.blogspot.com/), which now has four original sample posts. The homepage, article, label, search, archive, and header search panel have been checked on Blogger. Your blog's native gadgets can be edited in Blogger Layout.
 
 ## Credits and licensing
 

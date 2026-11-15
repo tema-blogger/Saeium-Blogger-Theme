@@ -1,6 +1,6 @@
 # Saeium Blogger Theme
 
-Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.6.1 improves article metadata and document language. Version 1.6.0 added real related-story photos, a reading progress bar, and native Blogger customization gadgets. Saeium retains Blogger's official Follow blog action, Inter interface type, Source Serif Pro article text, native threaded replies, and the mobile menu. It is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.blogspot.com/).
+Saeium is an original, reading-focused Blogger theme inspired by the editorial layout of [Medium](https://medium.com/). Version 1.6.1 improves article metadata and document language. Version 1.6.0 added real related-story photos, a reading progress bar, and native Blogger customization gadgets. Saeium retains Blogger's official Follow blog action, Inter interface type, Source Serif Pro article text, native threaded replies, and the mobile menu. It is an independent project and is not affiliated with Medium. See the [live Blogger demo](https://saeium.temablogger.com/).
 
 ![Saeium related stories with real cover photos](preview-related-v1.6.0.png)
 
@@ -78,7 +78,7 @@ The [mobile article and footer audit](docs/MEDIUM-ARTICLE-AUDIT.md) records the 
 
 ## Compatibility and verification
 
-Saeium v1.6.1 passed XML structure checks against the live v1.6.0 baseline. The [live demo](https://saeium.blogspot.com/) currently runs v1.6.0 and has six original English posts. The Layout panel displays twelve sections and fourteen native gadgets. Related covers, the settings gadget, both new Link List forms, the reading progress bar, and a 390px layout without horizontal overflow were checked live in v1.6.0. Browser timing and image-request evidence are recorded in the earlier verification report. Comment Likes and saved stories stay in the current browser and do not sync across visitors or devices; Blogger does not provide a signed-in Medium-style library through a theme.
+Saeium v1.6.1 passed XML structure checks against the live v1.6.0 baseline. The [live demo](https://saeium.temablogger.com/) currently runs v1.6.0 and has six original English posts. The Layout panel displays twelve sections and fourteen native gadgets. Related covers, the settings gadget, both new Link List forms, the reading progress bar, and a 390px layout without horizontal overflow were checked live in v1.6.0. Browser timing and image-request evidence are recorded in the earlier verification report. Comment Likes and saved stories stay in the current browser and do not sync across visitors or devices; Blogger does not provide a signed-in Medium-style library through a theme.
 
 ## Credits and licensing
 

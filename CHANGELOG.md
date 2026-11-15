@@ -2,6 +2,7 @@
 
 ## 1.6.1 — 2026-11-15
 
+- Updated the current demo link to `https://saeium.temablogger.com/` in the GitHub README and repository details; dated audit records retain their original URLs.
 - Removed older versioned XML downloads from the current GitHub tree and older ZIP packages from the current output folder; v1.6.1 remains the supported download. Git history retains past releases.
 - Removed outdated preview screenshots from the current GitHub tree and kept the two live v1.6.0 previews referenced by the README.
 - Added the blog's configured language to the document and put the article name first in single-item page titles.

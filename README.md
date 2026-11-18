@@ -30,6 +30,10 @@ Saeium is an original, reading-focused Blogger theme inspired by the editorial l
 - No default ad placements or third-party JavaScript libraries
 - Article-first page titles, article metadata, image alt text, and Blogger's canonical URLs; see the [SEO guide](docs/SEO.md)
 
+## Support the developer
+
+If Saeium helps your blog, please give [this repository](https://github.com/tema-blogger/Saeium-Blogger-Theme) a ⭐ Star and share its link with other Blogger users. Your support helps us maintain free themes. Thank you for valuing the developer's work.
+
 ## Install
 
 1. Download [Saeium-v1.6.1.xml](Saeium-v1.6.1.xml).

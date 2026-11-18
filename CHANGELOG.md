@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.2 — 2026-11-18
+
+- Minor maintenance update.
+- Added a backup-based Free update path that carries saved Blogger Layout settings forward.
+
+
 ## 1.6.1 — 2026-11-15
 
 - Updated the current demo link to `https://saeium.temablogger.com/` in the GitHub README and repository details; dated audit records retain their original URLs.

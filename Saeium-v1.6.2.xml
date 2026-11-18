@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
+<!-- Saeium Free v1.6.2 | TemaBlogger | 2026-11-18 -->
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
   <meta content='width=device-width, initial-scale=1' name='viewport'/>
@@ -12,7 +13,7 @@
   <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Source+Serif+Pro:wght@400;600;700&amp;display=swap' rel='stylesheet'/>
   <b:skin><![CDATA[
 /*
-  Saeium Blogger Theme 1.6.1
+  Saeium Blogger Theme 1.6.2
   Original editorial design inspired by the structure of medium.com.
   No Medium marks, source code, articles or images are included.
 */
@@ -209,7 +210,7 @@ body#layout .widget{border:1px solid #e6e8e6!important;background:#fff!important
 body#layout .add_widget{display:none!important}
 
 /* Layout dashboard only: version and section hierarchy. */
-body#layout .site-header:before{content:'SAEIUM BLOGGER THEME  ·  v1.6.1';display:block;background:#e9f3ec;color:#245c38;border:1px solid #c9dfce;border-radius:8px;padding:12px 16px;margin:0 0 14px;font-size:15px;font-weight:700;letter-spacing:.02em}
+body#layout .site-header:before{content:'SAEIUM BLOGGER THEME  ·  v1.6.2';display:block;background:#e9f3ec;color:#245c38;border:1px solid #c9dfce;border-radius:8px;padding:12px 16px;margin:0 0 14px;font-size:15px;font-weight:700;letter-spacing:.02em}
 body#layout .section{border:1px solid #dbe5dc!important;border-radius:10px!important;background:#f8fbf8!important;padding:14px!important;margin:8px 0 18px!important}
 body#layout .section h4{color:#25563a!important;font-size:15px!important;margin:0 0 12px!important}
 body#layout .widget{border:1px solid #e2e7e3!important;border-radius:8px!important;background:#fff!important;padding:12px!important;margin:9px 0!important}
@@ -231,6 +232,13 @@ body#layout .reading-progress{display:none!important}
   <b:if cond='data:view.isHomepage'><style>.hero{display:block}@media(max-width:760px){.archive-title{display:none}}</style></b:if>
 </head>
 <body>
+<b:section class='tb-license-settings' id='tbLicenseSettings' name='Lisensi Tema Blogger' showaddelement='yes'>
+  <b:widget id='HTML7' locked='true' title='Informasi Lisensi Free' type='HTML' version='2' visible='true'>
+    <b:widget-settings><b:widget-setting name='content'>Edisi Free aktif tanpa pembelian atau kode lisensi. TemaBlogger adalah pembuat template ini. Pengaturan logo, menu, warna, dan gadget tetap dikelola melalui Tata Letak.</b:widget-setting></b:widget-settings>
+    <b:includable id='main'><div hidden='hidden' class='tb-free-edition-note'>Edisi Free aktif tanpa pembelian atau kode lisensi. TemaBlogger adalah pembuat template ini. Pengaturan logo, menu, warna, dan gadget tetap dikelola melalui Tata Letak.</div></b:includable>
+  </b:widget>
+</b:section>
+
   <div class='theme-config'>
     <b:section id='saeiumSettings' name='00 · Pengaturan Saeium' showaddelement='yes'>
       <b:widget id='HTML6' locked='false' title='Theme settings' type='HTML' version='2' visible='true'>
